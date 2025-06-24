@@ -5,3 +5,23 @@
 // Use the  and  operator to perform the following operations:
 // Print the sum and difference of two int variable on a new line.
 // Print the sum and difference of two float variable rounded to one decimal place on a new line.
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+    int a, b;
+    float c, d;
+    
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%f", &c);
+    scanf("%f", &d);
+    
+    printf("%d %d \n", a+b, a-b);
+    printf("%.1f %.1f \n", c+d, c-d);
+    
+    return 0;
+}
