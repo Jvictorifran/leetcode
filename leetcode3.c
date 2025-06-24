@@ -25,3 +25,25 @@
 // Then take the string,  as input.
 // Lastly, take the sentence  as input.
 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#define MAX_LEN 10
+
+int main() 
+{
+    char ch;
+    char s[MAX_LEN];
+    char sh[MAX_LEN];
+    
+    scanf("%c", &ch);
+    scanf(" %s", s);
+    getchar();
+    scanf("%[^\n]%*c", sh);
+    printf("%c\n", ch);
+    printf("%s\n", s);
+    printf("%s", sh);  
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
