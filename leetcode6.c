@@ -15,7 +15,6 @@
 
 void update(int *a,int *b) {
     int aux1 = *a, aux2 = *b;
-      
     
     *a = aux1 + aux2;
     *b = abs(aux2 - aux1); 
